@@ -64,3 +64,12 @@ To run in Streamlit, first deploy the contracts.
 
 then run 'streamlit run streamlit.py'
 
+---
+
+## Contributors
+
+[![Python](https://img.shields.io/badge/David_Lampach-LinkedIn-blue)](https://www.linkedin.com/in/david-lampach-1b21133a/)
+
+[![Python](https://img.shields.io/badge/Michael_Dionne-LinkedIn-blue)](https://www.linkedin.com/in/michael-dionne-b2a1b61b/)
+
+
