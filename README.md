@@ -1,13 +1,15 @@
-# Description
+# BLACK JACK IN SOLIDITY AND STREAMLIT
+
+## Description
 
 This code implements a smart contract that enables players to play Black Jack.  Black Jack is a game of chance where players place wagers on the outcome of the game.  This game is entirely playable in the smart contract and does not rely on any particular user interface.  We provide a Streamlit interface for example purposes.
 
-# Warning - Insecure Code
+## Warning - Insecure Code
 This code uses recent block hashes to generate "pseudorandom" numbers.  Do not deploy this contract for real money use.  Miners can manipulate the block hashes and control the outcome of the game.  If you wish to deploy this contract for real money use, you must swap out the pseudorandom number generator for a true random number generator.  True randomness is not possible on a block chain, so an off chain oracle is needed.  
 
 ---
 
-# Dependencies
+## Dependencies
 
 [![Python](https://img.shields.io/badge/Python-3.9.12-blue)](https://www.python.org/downloads/release/python-3912/)
 
@@ -25,17 +27,19 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
 ---
 
-# Installation
+## Installation
 
-1. [deploy.py](https://github.com/davidlampach/blackjack_solidity/blob/master/deploy.py) will also require the [sol_c_x Python compiler](https://solcx.readthedocs.io/en/latest/)
+1. To install, clone this git repo to your local machine.  You will be able to copile and deploy the smart contracts directly in Remix.  Alternatively, you can compile and deploy them by running deploy.py.  Deploy.py will compile and deploy the contract at the command line, but you need to update the deploying address and secret key in the .env file. Deploy.py will automatically update the contract address in the .env file. 
+
+2. If you choose to use deploy.py, you will need the sol-c-x compiler.
 
         pip install py-solc-x
 
-2. The entirety of this game runs with a smart contract written in solidity.  It is best to familiarize oneself with the contract in a GUI compiler like remix before deploying the game in Streamlit.  
+3. The entirety of this game runs with a smart contract written in solidity.  It is best to familiarize oneself with the contract in a GUI compiler like remix before deploying the game in Streamlit.  
 
 
 
-# Running just the Solidity contracts
+## Running just the Solidity contracts
 
 1. No GUI is necessary to play the game.  You can load the blackjack.sol in the compiler of your choice.  It uses [![Solidity](https://img.shields.io/badge/Solidity-0.8.17-blue)](https://docs.soliditylang.org/en/v0.8.9/)
 
@@ -59,7 +63,7 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
 ---
 
-# Running in Streamlit
+## Running in Streamlit
 
 1. To run the game in streamlit, you must first install streamlit.  You can do this by running the following command in your terminal
 
@@ -80,4 +84,5 @@ streamlit run streamlit.py
 [![Python](https://img.shields.io/badge/David_Lampach-LinkedIn-blue)](https://www.linkedin.com/in/david-lampach-1b21133a/)
 
 [![Python](https://img.shields.io/badge/Michael_Dionne-LinkedIn-blue)](https://www.linkedin.com/in/michael-dionne-b2a1b61b/)
+
 
