@@ -78,6 +78,8 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 pip install streamlit
 ```
 
+2. You must also update the .env file with the deployed contract address.  If you used deploy.py to compile and deploy the contract, the .env will have been updated for you.
+
 2. After streamlit is installed, you can run the game by running the following command in your terminal
 
 ```bash
