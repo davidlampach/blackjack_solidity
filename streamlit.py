@@ -85,16 +85,12 @@ with st.sidebar:
     with col1:
         pass 
     with col2:
-
-        if st.button('Coinflip'):
-            print('test')
-        if st.button('BlackJack'):
-            print('test')
+        pass
     with col3:
         pass 
 
     player_account = st.selectbox('Please Select Player Account', (accounts))
-    fund_amount = st.number_input('Select Amount Of Ether To Fund')
+    fund_amount = st.number_input('Select Amount Of wei To Fund')
     st.write(f'Player balance in casino --> ', contract_variables[3])
 
     wallet_balance = w3.eth.getBalance(player_account)
@@ -307,7 +303,7 @@ if contract_variables[5] == 1:  #contract_variables[5] is game outcome
 
 if contract_variables[14] == 0:
 
-    st.subheader('Play a game')
+    st.write('')
 
 if contract_variables[14] == 1:
 

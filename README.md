@@ -77,6 +77,7 @@ pip install streamlit
 streamlit run streamlit.py
 ```
 
+When the main streamlit page loads,
 ---
 
 ## Contributors
