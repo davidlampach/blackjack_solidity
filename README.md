@@ -13,9 +13,36 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-0.88.0-blue)](https://docs.streamlit.io/en/stable/)
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DigitalGoldRush?tab=repositories)
+### Python libraries
+
+[![OS](https://img.shields.io/badge/OS-Windows%2010%20Pro%20x64-blue)](https://www.microsoft.com/en-us/software-download/windows10)
+
+[![Random](https://img.shields.io/badge/Random-True%20Random-blue)](https://www.random.org/)
+     
+[![Web3](https://img.shields.io/badge/Web3-5.24.0-blue)](https://web3py.readthedocs.io/en/stable/)
+
+[![Streamlit](https://img.shields.io/badge/Streamlit-0.88.0-blue)](https://docs.streamlit.io/en/stable/)
+
+[![Time](https://img.shields.io/badge/Time-2021--12--15%2016%3A00%3A00-blue)](https://www.timeanddate.com/worldclock/)
+
+[![Json](https://img.shields.io/badge/Json-2.0.9-blue)](https://docs.python.org/3/library/json.html)
+=
+
+# get PIL 
+
+
+
+
 
 other Python libraries:
+
+- [web3](https://web3py.readthedocs.io/en/stable/)
+- [eth-brownie](https://eth-brownie.readthedocs.io/en/stable/)
+- [streamlit](https://docs.streamlit.io/en/stable/)
+- [os] 
+- [random]
+- [time]
+- [json]
 
 os  
 json  
