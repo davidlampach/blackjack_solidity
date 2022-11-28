@@ -6,10 +6,10 @@ This code implements a smart contract that enables players to play Black Jack.  
 
 The following rules are used for the Black Jack contract:
 
-No splitting
-No insurance
-Black Jack pays 3/2
-Dealer must stay on soft 17
+No splitting  
+No insurance  
+Black Jack pays 3/2  
+Dealer must stay on soft 17  
 
 ## Warning - Insecure Code
 This code uses recent block hashes to generate "pseudorandom" numbers.  Do not deploy this contract for real money use.  Miners can manipulate the block hashes and control the outcome of the game.  If you wish to deploy this contract for real money use, you must swap out the pseudorandom number generator for a true random number generator.  True randomness is not possible on a block chain, so an off chain oracle is needed.  
