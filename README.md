@@ -43,7 +43,7 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
 1. No GUI is necessary to play the game.  You can load the blackjack.sol in the compiler of your choice.  It uses [![Solidity](https://img.shields.io/badge/Solidity-0.8.17-blue)](https://docs.soliditylang.org/en/v0.8.9/)
 
-2. After you've compiled the contract you can deploy it on any Ethereum network
+2. After you've compiled the contract you can deploy it on any Ethereum network (with the exception of the Remix test network)
 
 3. blackjack.sol usage
 
