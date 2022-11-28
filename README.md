@@ -4,6 +4,13 @@
 
 This code implements a smart contract that enables players to play Black Jack.  Black Jack is a game of chance where players place wagers on the outcome of the game.  This game is entirely playable in the smart contract and does not rely on any particular user interface.  We provide a Streamlit interface for example purposes.
 
+The following rules are used for the Black Jack contract:
+
+No splitting
+No insurance
+Black Jack pays 3/2
+Dealer must stay on soft 17
+
 ## Warning - Insecure Code
 This code uses recent block hashes to generate "pseudorandom" numbers.  Do not deploy this contract for real money use.  Miners can manipulate the block hashes and control the outcome of the game.  If you wish to deploy this contract for real money use, you must swap out the pseudorandom number generator for a true random number generator.  True randomness is not possible on a block chain, so an off chain oracle is needed.  
 
@@ -81,7 +88,9 @@ When the main streamlit page loads, you will see a drop down on the left to sele
 
 Once funds are deposited, select an amount to bet and click "Place Bet"
 
-Now click deal and wait for the cards to be dealt.  This can take up to ten seconds.  This is because the gas amounts for the transaction are not hard coded, but instead each transaction estimates the gas amount every time it is called.  
+Now click deal and wait for the cards to be dealt.  This can take up to ten seconds.  
+
+**This is because the gas amounts for the transaction are not hard coded, but instead each transaction estimates the gas amount every time it is called.  You can speed it up by changing 'w3.eth.gas_price' values with real known gas amount.
 
 Play Black Jack as usual.  Once you've placed a bet, you can rebet without placing a new bet.  
 
