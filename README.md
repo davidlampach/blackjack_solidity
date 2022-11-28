@@ -40,9 +40,7 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
 3. ### Install Git
 
-   [![Git](https://img.shields.io/badge/Git-2.33.1-blue)](https://git-scm.com/downloads)
-
-   Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+   [![Git](https://img.shields.io/badge/Git-2.33.1-blue)](https://git-scm.com/downloads) is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
    Download and install Git from [here](https://git-scm.com/downloads).
 
