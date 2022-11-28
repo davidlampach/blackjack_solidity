@@ -35,7 +35,7 @@ This code uses recent block hashes to generate "pseudorandom" numbers.  Do not d
 
         pip install py-solc-x
 
-3. The entirety of this game runs with a smart contract written in solidity.  It is best to familiarize oneself with the contract in a GUI compiler like remix before deploying the game in Streamlit.  
+3. The entirety of this game runs with a smart contract written in solidity.  It is best to familiarize oneself with the contract in a GUI compiler like remix before deploying the game in Streamlit.  You can use a test ethereum network, but this program will not run on the Remix test network due to limitations on what kind of code can be called on Remix.  Ganache-CLI was used for our deployment, but the Ganache-GUI works as well (much slower).
 
 
 
@@ -77,7 +77,14 @@ pip install streamlit
 streamlit run streamlit.py
 ```
 
-When the main streamlit page loads,
+When the main streamlit page loads, you will see a drop down on the left to select the player account.  Select an account, but be aware that you may not use the same account you used to deploy the contract.  Use the 'Fund' and 'Withdraw' buttons to add playing funds to the contract.  
+
+Once funds are deposited, select an amount to bet and click "Place Bet"
+
+Now click deal and wait for the cards to be dealt.  This can take up to ten seconds.  This is because the gas amounts for the transaction are not hard coded, but instead each transaction estimates the gas amount every time it is called.  
+
+Play Black Jack as usual.  Once you've placed a bet, you can rebet without placing a new bet.  
+
 ---
 
 ## Contributors
